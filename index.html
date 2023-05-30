@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 13 tarea</title>
+    <title>Clase 13 practicas / Inicio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
@@ -12,46 +12,56 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="imagen-fondo">
+    <header>
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <section>
-            <h1>Venta de libros</h1>
-        </section>
+        
     </header>
     <main>
+        <section class="imagen-fondo">
+            <h1>Venta de libros</h1>
+        </section>
         
-        <section>
+        <section class="seccion-titulo">
             <h2>Nosotros</h2>
-
-            <p>“¡Bienvenidos a nuestra librería en línea! Somos una tienda especializada en la venta de libros viejos y nuevos de historia, geografía, literatura y filosofía. Nuestra pasión por los libros nos ha llevado a crear un lugar donde puedas encontrar una amplia variedad de títulos y autores. Nos enorgullece ofrecer una selección cuidadosamente curada de libros para satisfacer las necesidades de nuestros clientes. Ya sea que busques un libro antiguo o una novedad editorial, estamos seguros de que encontrarás lo que buscas en nuestra tienda. ¡Explora nuestro catálogo y descubre tu próximo libro favorito!”</p>
+            <div class="titulo-centrado">
+                <p>“¡Bienvenidos a nuestra librería en línea! Somos una tienda especializada en la venta de libros viejos y nuevos de historia, geografía, literatura y filosofía. Nuestra pasión por los libros nos ha llevado a crear un lugar donde puedas encontrar una amplia variedad de títulos y autores. Nos enorgullece ofrecer una selección cuidadosamente curada de libros para satisfacer las necesidades de nuestros clientes. Ya sea que busques un libro antiguo o una novedad editorial, estamos seguros de que encontrarás lo que buscas en nuestra tienda. ¡Explora nuestro catálogo y descubre tu próximo libro favorito!”</p>
+            </div>
         </section>
         <section>
+            <h2 class="producto-titulo">Algunos de nuestros libros</h2>
             <div class="contenedor">
                 <div class="producto">
                     <div class="imagen">
                         <img src="./assets/img/libro-fantasia.jpg" alt="imagen libro de ficcion">
                     </div>
-                    <h3>El nombre del viento</h3>
-                    <p>Patrick Rothfuss</p>
+                    <div class="info">
+                        <h3>El nombre del viento</h3>
+                        <p>Patrick Rothfuss</p>
+                    </div>
                 </div>
                 <div class="producto">
                     <div class="imagen">
                         <img src="./assets/img/libro-historia.jpg" alt="imagen libro de historia">
                     </div>
-                    <h3>Historia Breve del mundo</h3>
-                    <p>Ernst H. Gombrich</p>
+                    <div class="info">
+                        <h3>Historia Breve del mundo</h3>
+                        <p>Ernst H. Gombrich</p>
+                    </div>
                 </div>
                 <div class="producto">
                     <div class="imagen">
                         <img src="./assets/img/librofilosofia.jpg" alt="imagen libro de filosofia">
                     </div>
-                    <h3>Critica de la razon pura</h3>
-                    <p>Immanuel Kant</p>
+                    <div class="info">
+                        <h3>Critica de la razon pura</h3>
+                        <p>Immanuel Kant</p>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -60,13 +70,13 @@
         <div class="footer-div1">
             <ul>
                 <li>
-                    <a href="https://ar.linkedin.com/" target="_blank">Linkedin <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://ar.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com" target="_blank">Facebock <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 </li>
                 <li>
-                    <a href="https://github.com" target="_blank">Github <i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </li>
             </ul>
 
@@ -76,9 +86,10 @@
                 <li>
                     <a class="enlace-ubicacion" href="https://goo.gl/maps/tqWC2L7KKoLe4UzT6?coh=178573&entry=tt" target="_blank">Rivadavia 347 Alberti Bs.As</a>
                 </li>
-                <li><a class="enlace-ubicacion" href="mailto:josebarone87@hotmail.com">E-Mail</a></li>
+                <li><a class="enlace-ubicacion" href="mailto:josebarone87@hotmail.com">E-Mail<i class="fa-sharp fa-solid fa-envelope"></i></a></li>
             </ul>
         </div>
+        <p class="copyright">Todos los derechos reservados Venta de libros &copy; 2023</p>
     </footer>
 </body>
 </html>
