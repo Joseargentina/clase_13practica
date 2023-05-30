@@ -5,8 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    
+    <header class="header-productos">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Dejanos tus datos</h1>
+
+        <form action="" class="form">
+            <fieldset>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+
+                <label for="nombre">Apellido</label>
+                <input type="text" name="nombre" placeholder="Ingrese su apellido" required>
+
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" placeholder="Edad" required min="16" max="99">
+
+                <label for="fecha">Fecha de nacimiento</label>
+                <input type="date" name="fecha" required>
+
+                <label for="email">Correo electronico</label>
+                <input type="email" name="email" placeholder="E-mail" required>
+
+                <textarea class="textarea" name="comentarios" cols="30" rows="10">Ingrese aqui su comentario</textarea>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetear">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://ar.linkedin.com/" target="_blank">Linkedin</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">Facebock</a>
+                </li>
+                <li>
+                    <a href="https://github.com" target="_blank">Github</a>
+                </li>
+            </ul>
+
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a class="enlace-ubicacion" href="https://goo.gl/maps/tqWC2L7KKoLe4UzT6?coh=178573&entry=tt" target="_blank">Rivadavia 347 Alberti Bs.As</a>
+                </li>
+                <li><a class="enlace-ubicacion" href="mailto:josebarone87@hotmail.com">E-Mail</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

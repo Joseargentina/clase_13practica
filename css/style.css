@@ -7,3 +7,61 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.imagen-fondo {
+    background-image: url('../assets/img/imagen-header.jpg');
+    height: 500px;
+    width: 100%;
+}
+
+.imagen-fondo h1 {
+    color: #ba4a4a;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 1px 1px 0 #fff;
+    position: relative;
+    top: 184px;
+}
+nav li a {
+    transition: background-color, .3s ;
+    font-size: 2rem;
+    color: #40a45b;
+    font-size: 2.5rem;
+}
+nav li a:hover {
+    background-color: #dd6363;
+    color: #000;
+    cursor: pointer;
+}
+/*Productos*/
+
+.header-productos {
+    background-color: rgb(54, 56, 110);
+}
+.form {
+    background-image: url('../assets/img/imagen-formulario.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.form h1 {
+    text-align: center;
+}
