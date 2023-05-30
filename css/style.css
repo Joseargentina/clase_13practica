@@ -48,10 +48,10 @@ nav a:hover {
 /*main*/
 .imagen-fondo {
     background-image: url('../assets/img/imagen-header.jpg');
-    background-size: cover;
-    background-position: center center;
+    background-size:cover;
+    background-position: 100% ;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
@@ -62,7 +62,7 @@ nav a:hover {
     text-shadow: 1px 1px 0 #170777;
     position: relative;
     letter-spacing: 15px;
-    top: 410px;
+    top: 524px;
 }
 /*seccion titulo centrado*/
 
