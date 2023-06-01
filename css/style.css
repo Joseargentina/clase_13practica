@@ -34,15 +34,26 @@ nav {
 }
 nav a {
     transition: background-color, .3s ;
-    font-size: 22px;
     color: #40a45b;
-    font-size: 2.5rem;
+    font-size: 25px;
     text-align: center;
+    padding: 20px;
+    border-radius: 10px;
 }
 nav a:hover {
     background-color: #dd6363;
     color: #000;
     cursor: pointer;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
 
 /*main*/
