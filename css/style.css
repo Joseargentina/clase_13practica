@@ -29,9 +29,6 @@ a {
 header {
     background-color: #4073a461;
 }
-nav { 
-    padding: 20px;
-}
 nav a {
     transition: background-color, .3s ;
     color: #40a45b;
