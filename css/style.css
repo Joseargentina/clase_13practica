@@ -29,6 +29,7 @@ a {
 header {
     background-color: #4073a461;
 }
+
 nav a {
     transition: background-color, .3s ;
     color: #40a45b;
@@ -75,6 +76,10 @@ li {
 /*seccion titulo centrado*/
 
 .seccion-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #0a66c2;
     background-color: #104d8961;
     height: 40vh;
@@ -83,13 +88,12 @@ li {
     color: #000;
     font-size: 30px;
     text-align: center;
-    padding-top: 14px;
+    margin-bottom: 14px;
 }
 .titulo-centrado {
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
     line-height: 1.5;
     letter-spacing: 2.2px;
     color: #fff;
@@ -99,6 +103,8 @@ li {
 
 .contenedor {
     height: 70vh;
+    display: flex;
+    justify-content: center;
 }
 .producto-titulo {
     text-align: center;
@@ -108,11 +114,10 @@ li {
     text-transform: uppercase;
 }
 .producto {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 25%;
-    position: relative;
-    left: 180px;
-    top: 85px;
 }
 
 .imagen {
